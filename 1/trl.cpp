@@ -26,7 +26,9 @@ bool czy_pole(vector<double> t1, vector<double> t2){
     double p2 = (double)(t2[0] + t2[1] + t2[2]) / 2;
     double pole2(sqrt(p2*(p2-t2[0])*(p2-t2[1])*(p2-t2[2])));
 
-    double;
+    if((pole2*(80.0/100.0) < pole1) || (pole1 < pole2*(120.0/100.0))){
+        return true;
+    }
 
     return false;
 }
