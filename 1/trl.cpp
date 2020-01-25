@@ -21,12 +21,12 @@ bool czy_jest_prostokatny(vector<double> trojkat){
 
 bool czy_pole(vector<double> t1, vector<double> t2){
     double p1 = (double)(t1[0] + t1[1] + t1[2]) / 2;
-    double pole1(sqrt(p1*(p1-t1[0])*(p1-t1[1])*(p1-t1[2])));
+    double pole1 = (sqrt(p1*(p1-t1[0])*(p1-t1[1])*(p1-t1[2])));
 
     double p2 = (double)(t2[0] + t2[1] + t2[2]) / 2;
-    double pole2(sqrt(p2*(p2-t2[0])*(p2-t2[1])*(p2-t2[2])));
+    double pole2 = (sqrt(p2*(p2-t2[0])*(p2-t2[1])*(p2-t2[2])));
 
-    if((pole2*(80.0/100.0) < pole1) || (pole1 < pole2*(120.0/100.0))){
+    if((pole2*(80.0/100.0) < pole1) && (pole1 < pole2*(120.0/100.0))){
         return true;
     }
 
@@ -36,7 +36,7 @@ bool czy_pole(vector<double> t1, vector<double> t2){
 
 int main(){
     vector<double> pani;
-    vector<double> pan;
+    vector<double> pan {1, 1, 1};
 
     double punkty_pani = 0, punkty_pana = 0;
 
@@ -62,6 +62,7 @@ int main(){
         }
 
         // pan
+        pan.erase(pan.begin(), pan.end());
         for(int i = 0; i < 3; i++){
             double a; cin >> a; 
             pan.push_back(a);
@@ -73,18 +74,17 @@ int main(){
 
         if(jest_trojkatem)
         {
-            punkty_pani++;
+            punkty_pana++;
             if(pole)
             {
-                punkty_pani++;
+                punkty_pana++;
                 if(prostokatny) 
-                    punkty_pani++;
+                    punkty_pana++;
             }
         }
 
-
-
         //pani
+        pani.erase(pani.begin(), pani.end());
         for(int i = 0; i < 3; i++){
             double a; cin >> a; 
             pani.push_back(a);
@@ -94,6 +94,8 @@ int main(){
         pole = czy_pole(pani, pan);
         prostokatny = czy_jest_prostokatny(pani);
     }
+
+    cout << punkty_pani << " " << punkty_pana << endl;
 
     return 0;
 }
