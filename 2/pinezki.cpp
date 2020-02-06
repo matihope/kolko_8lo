@@ -7,17 +7,18 @@ int main(){
 
     int t; cin >> t;
 
-    int pinezki[t];
-
     int max_count = 0;
     int count = 0;
     for(int i = 0; i < t; i++){
         int input; cin >> input;
-        if(input != 1){
+
+        if(input == 0)
+        {
             max_count = max(max_count, count);
             count = 0;
         }
-        else count++;
+        else 
+            count++;
     }
     max_count = max(max_count, count);
     cout << max_count;
