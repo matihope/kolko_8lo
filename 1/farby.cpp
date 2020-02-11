@@ -11,9 +11,14 @@ int main()
     cin >> s1 >> s2 >> s3 >> s4 >> s5 >> s6;
 
     double req_c, req_z, req_n;
-    req_c = min(0.0, (c-(s5 + s4/2 + s6/2))) * -1;
-    req_z = min(0.0, (z-(s1 + s2/2 + s6/2))) * -1;
-    req_n = min(0.0, (n-(s3 + s2/2 + s4/2))) * -1;
+    req_c = min(0.0, (c-(s5 + s4/2 + s6/2)));
+    req_z = min(0.0, (z-(s1 + s2/2 + s6/2)));
+    req_n = min(0.0, (n-(s2/2 + s3 + s4/2)));
+
+    // really important step (apparently), otherwise it would print -0 (REALLY!)
+    if(req_c != 0) req_c *= -1;
+    if(req_z != 0) req_z *= -1;
+    if(req_n != 0) req_n *= -1;
 
     if(round(req_c) == req_c) cout << to_string((int)req_c);
     else{
