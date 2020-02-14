@@ -32,6 +32,6 @@ int main(){
             }
         }
     }
-    if(licznik == 0)    cout << 1 << endl;
+    if(licznik == 0 || licznik == mianownik)    cout << 1 << endl;
     else    cout << licznik << "/" << mianownik << endl;
 }
