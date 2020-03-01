@@ -57,4 +57,4 @@
 |-----|-------------|-----|
 | bis |	Binary search | 100 |
 | gra | Gra | 100 |
-| obw |	Zadanie Obwody |  
+| obw |	Zadanie Obwody | 100 |
