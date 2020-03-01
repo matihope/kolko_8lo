@@ -54,7 +54,11 @@
 ## Sortowania 25 II
 
 | id | nazwa | pkt |
-|---|---|---|---|
+|-----|-------------|-----|
 | bis |	Binary search | 100 |
 | gra | Gra | 100 |
 | obw |	Zadanie Obwody |  
+
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| dzi | dziewczynki | 100 |
