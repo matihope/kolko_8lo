@@ -1,6 +1,7 @@
 # kolko_8lo
 
 ## Podstawy i funkcje warunkowe (14 I)
+
 id | nazwa | pkt
 --- | --- | --- | ---
  0tst | !Zadanie testowe | 100
@@ -16,8 +17,10 @@ id | nazwa | pkt
  piz | Pizza | 100
  tro | Trójkąciki | 100
  zna | Zadanie Znak działania | 100
+
 #
 ## Pętle (21 I)
+
 | id | nazwa | pkt |
 | --- | --- | --- | --- |
 | kwi |	Kwiatki | 100 |
@@ -26,6 +29,7 @@ id | nazwa | pkt
 | ryc | Rycerze | 100 |
 | trl | Zadanie Trójkątowy lotek | 100 |
 | wyk | Zadanie Wykreślanka | 100 |
+
 #
 ## Pętle - ćwiczenia (11 II)
 | id | nazwa | pkt |
