@@ -58,3 +58,35 @@
 | bis |	Binary search | 100 |
 | gra | Gra | 100 |
 | obw |	Zadanie Obwody | 100 |
+
+#
+## Zajęcia 3 III - napisy, funkcje
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| ang |	ANG - Anagramy | 100
+| buf | BUF - Buffer Underrun | 100
+| dwa | Zadanie Dwa słowa | 66
+| fib | Zadanie Słowa Fibonacciego | 50
+| fra1 | FRA - Szyfrowanie | 100
+| pow | POW - Powtarzające się znaki | 100
+
+#
+## Zajęcia 10 III - napisy c.d.
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| ban | Zadanie Bankiet | 100 	
+| naj | Zadanie Najdłuższe wspólne podsłowo | 100 	
+| nsl | Zadanie Najdłuższe słowo | 100
+| slo | Slownik | 100	
+| sor | Zadanie Sortowanie biżuterii | 100 	
+| we2 | WEGA2 - WEGA 4.2. MN2018 | 100	
+| zli | Zadanie Zliczacz liter | 100
+
+#
+## W wolnym czasie
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| cho | Zadanie Choinka | 100
+| cza | Zadanie Czas | 100
+| lus | Zadanie Lustro | 100
+| sto | Zadanie Stopki | 100
