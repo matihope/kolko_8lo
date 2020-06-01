@@ -90,3 +90,36 @@
 | cza | Zadanie Czas | 100
 | lus | Zadanie Lustro | 100
 | sto | Zadanie Stopki | 100
+
+#
+## Zajecia 12 V
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| wiz | Wizyta | 76
+| wyd | Zadanie Kreatywna ksiegowosc | 0
+
+#
+## Zajecia 15 V
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| jul | Zadanie Julka | 100
+| wyd | Zadanie Sumujacy Jas | 0
+
+#
+## Zajecia 19 V
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| kul | KUL - Kulki | 0
+
+#
+## Zajecia 22 V
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| ukz | UKZ - Ukryty zapis | 100
+| war | War - Wartosc rowna indeksowi | 100
+
+#
+## Zajecia 26 V
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| mar | mar - Marchewka | 0
