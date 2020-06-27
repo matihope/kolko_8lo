@@ -96,7 +96,7 @@
 | id | nazwa | pkt |
 |-----|-------------|-----|
 | wiz | Wizyta | 76
-| wyd | Zadanie Kreatywna ksiegowosc | 0
+| wyd | Zadanie Kreatywna ksiegowosc | 100
 
 #
 ## Zajecia 15 V
@@ -122,13 +122,13 @@
 ## Zajecia 26 V
 | id | nazwa | pkt |
 |-----|-------------|-----|
-| mar | mar - Marchewka | 0
+| mar | mar - Marchewka | 100
 
 #
 ## Zajecia 29 V
 | id | nazwa | pkt |
 |-----|-------------|-----|
-| kaj | Zadanie Kajaki | 0
+| kaj | Zadanie Kajaki | 100
 | kar | KAR - Karty | 100
 | pkt | PKT - Punkty | 100
 
@@ -144,9 +144,9 @@
 ## Zajecia 5 VI
 | id | nazwa | pkt |
 |-----|-------------|-----|
-| lss | LSS - Lista sasiedztwa grafu skierowanego | 0
-| msc | MCS - Macierz sasiedztwa | 0
-| ryb | RYB - Rybki | 0
+| lss | LSS - Lista sasiedztwa grafu skierowanego | 100
+| msc | MCS - Macierz sasiedztwa | 100
+| ryb | RYB - Rybki | 50
 
 #
 ## Zajecia 16 VI
