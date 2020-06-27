@@ -103,7 +103,7 @@
 | id | nazwa | pkt |
 |-----|-------------|-----|
 | jul | Zadanie Julka | 100
-| wyd | Zadanie Sumujacy Jas | 0
+| sum | Zadanie Sumujacy Jas | 0
 
 #
 ## Zajecia 19 V
@@ -123,3 +123,34 @@
 | id | nazwa | pkt |
 |-----|-------------|-----|
 | mar | mar - Marchewka | 0
+
+#
+## Zajecia 29 V
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| kaj | Zadanie Kajaki | 0
+| kar | KAR - Karty | 100
+| pkt | PKT - Punkty | 100
+
+#
+## Zajecia 2 VI
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| dia | dia - Diamenty | 0
+| mos | Mosiezny most | 0
+| pir | pir - Piradmida | 0
+
+#
+## Zajecia 5 VI
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| lss | LSS - Lista sasiedztwa grafu skierowanego | 0
+| msc | MCS - Macierz sasiedztwa | 0
+| ryb | RYB - Rybki | 0
+
+#
+## Zajecia 16 VI
+| id | nazwa | pkt |
+|-----|-------------|-----|
+| mitocja | Mitocja | 100
+| pod | Poddrzewo [A] | 100

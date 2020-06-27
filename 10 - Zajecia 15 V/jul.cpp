@@ -53,7 +53,7 @@ std::string substract(std::string first, std::string second){
         answer = std::to_string(maths - (second[i] - '0')) + answer;
     }
 
-    while(answer[0] == '0')
+    while (answer[0] == '0')
         answer.erase(answer.begin());
 
     return answer;
@@ -86,7 +86,6 @@ int main(){
     std::cin >> a >> b;
 
     // answer -> a + b = 2*answer1;
-
     std::string answer1 = divide_by_2(add(a, b));
     std::string answer2 = substract(a, answer1);
     printf("%s\n%s\n", answer1.c_str(), answer2.c_str());
